@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="{{asset_path_prefix}}stylesheets/stylesheet.css" media="screen"/>
+  <link rel="stylesheet" href="{{asset_path_prefix}}stylesheets/pygment_trac.css"/>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="{{asset_path_prefix}}javascripts/script.js"></script>
+
+  <title>HinchK as SnagleCratch in ... Stuff</title>
+  <meta name="description" content="KaseyHinchman Skynet">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">HinchK as SnagleCratch</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">when all the landlines ring at the same time, and you get a fax to your iphone; that is me in my final form.</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          {{#show_downloads?}}
+          <a href="{{tar_url}}" class="download-button tar"><span>Download</span></a>
+          <a href="{{zip_url}}" class="download-button zip"><span>Download</span></a>
+          {{/show_downloads?}}
+          <a href="http://HinchK.github.io" class="code">View HinchK.github.io on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+			Hello friend!
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      {{#project_page?}}
+      <p><a href="https://avatars2.githubusercontent.com/u/1509456?s=460" class="avatar"><img src="https://avatars2.githubusercontent.com/u/1509456?s=460" width="48" height="48"/></a> <a href="{{owner_url}}">http://HinchK.github.io</a> maintains <a href="http://github.com/HinchK">SkyNeT</a></p>
+...coming 2016....
+
+       {{#user_page?}}
+      <p><a href="{{owner_url}}" class="avatar"><img src="{{owner_gravatar_url}}" width="48" height="48"/></a>View <a href="https://github.com/HinchK">snagleCratch</a> on <a href="https://www.github.com">GitHub</a></p>
+https://github.com/HinchK
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="http://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="{{tar_url}}" class="tar">tar</a><a href="{{zip_url}}" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  {{{google_analytics}}}
+</body>
+</html>
